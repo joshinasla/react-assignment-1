@@ -9,19 +9,29 @@ function SocialMedia(props) {
   return (
     <div>
       <span class="social-media-icon">
-        <FaFacebookF />
+        <a href={props.facebookLink} className="social-media">
+          <FaFacebookF />
+        </a>
       </span>
       <span class="social-media-icon">
-        <FaTwitter />
+        <a href={props.twitterLink} className="social-media">
+          <FaTwitter />
+        </a>
       </span>
       <span class="social-media-icon">
-        <FaLinkedinIn />
+        <a href={props.linkedLink} className="social-media">
+          <FaLinkedinIn />
+        </a>
       </span>
       <span class="social-media-icon">
-        <FaGithub />
+        <a href={props.githubLink} className="social-media">
+          <FaGithub />
+        </a>
       </span>
       <span class="social-media-icon">
-        <FaEnvelope />
+        <a href={props.mailLink} className="social-media">
+          <FaEnvelope />
+        </a>
       </span>
     </div>
   );

@@ -24,7 +24,13 @@ function App() {
       <About firstName="Nasla" lastName="Joshi" rollNo="2074/BCT/41" />
       <Hobbies />
       <hr />
-      <SocialMedia />
+      <SocialMedia
+        facebookLink="https://www.facebook.com/"
+        twitterLink="https://twitter.com/"
+        linkedLink="https://www.linkedin.com/"
+        githubLink="https://github.com/"
+        mailLink="https://mail.google.com/"
+      />
     </div>
   );
 }
