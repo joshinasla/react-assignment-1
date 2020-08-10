@@ -1,0 +1,12 @@
+.card {
+  margin: 50px auto;
+  width: 50%;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #faf3dd;
+  color: #9d8189;
+  font-size: 16px;
+}
+.name,
+.roll-no {
+  padding: 10px;
+}

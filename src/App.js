@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import Header from "./components/Header/Header";
+import Photo from "./components/Photo/Photo";
+import About from "./components/About/About";
+import Hobbies from "./components/Hobbies/Hobbies";
+import SocialMedia from "./components/SocialMedia/SocialMedia";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Photo
+        photo={
+          <img
+            src={require("./components/Photo/photo.JPG")}
+            alt="photo"
+            width="200"
+          ></img>
+        }
+      ></Photo>
+      <About firstName="Nasla" lastName="Joshi" rollNo="2074/BCT/41" />
+      <Hobbies />
+      <hr />
+      <SocialMedia />
     </div>
   );
 }
