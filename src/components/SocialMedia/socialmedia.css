@@ -13,3 +13,14 @@
 .social-media {
   color: white;
 }
+.social-media-icon a:focus::after {
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  -webkit-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+.social-media-icon a:hover {
+  color: yellow;
+}
