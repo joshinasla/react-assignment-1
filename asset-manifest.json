@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-assignment-1/static/css/main.1632003d.chunk.css",
+    "main.js": "/react-assignment-1/static/js/main.a00d13ce.chunk.js",
+    "main.js.map": "/react-assignment-1/static/js/main.a00d13ce.chunk.js.map",
+    "runtime-main.js": "/react-assignment-1/static/js/runtime-main.cd252c77.js",
+    "runtime-main.js.map": "/react-assignment-1/static/js/runtime-main.cd252c77.js.map",
+    "static/js/2.7e1ad799.chunk.js": "/react-assignment-1/static/js/2.7e1ad799.chunk.js",
+    "static/js/2.7e1ad799.chunk.js.map": "/react-assignment-1/static/js/2.7e1ad799.chunk.js.map",
+    "index.html": "/react-assignment-1/index.html",
+    "precache-manifest.8287e17673b87508188358e812854f57.js": "/react-assignment-1/precache-manifest.8287e17673b87508188358e812854f57.js",
+    "service-worker.js": "/react-assignment-1/service-worker.js",
+    "static/css/main.1632003d.chunk.css.map": "/react-assignment-1/static/css/main.1632003d.chunk.css.map",
+    "static/js/2.7e1ad799.chunk.js.LICENSE.txt": "/react-assignment-1/static/js/2.7e1ad799.chunk.js.LICENSE.txt",
+    "static/media/basketball.png": "/react-assignment-1/static/media/basketball.d049032c.png",
+    "static/media/cooking.png": "/react-assignment-1/static/media/cooking.455ad6bc.png",
+    "static/media/drawing.png": "/react-assignment-1/static/media/drawing.bcc8eadb.png",
+    "static/media/logo.svg": "/react-assignment-1/static/media/logo.5d5d9eef.svg",
+    "static/media/makeup.png": "/react-assignment-1/static/media/makeup.90d1a79f.png",
+    "static/media/photo.JPG": "/react-assignment-1/static/media/photo.407d8a4e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd252c77.js",
+    "static/js/2.7e1ad799.chunk.js",
+    "static/css/main.1632003d.chunk.css",
+    "static/js/main.a00d13ce.chunk.js"
+  ]
+}
