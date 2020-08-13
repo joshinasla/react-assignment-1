@@ -1,10 +1,12 @@
 import React from "react";
+
 import "./hobbies.css";
 import cooking from "./img/cooking.png";
 import drawing from "./img/drawing.png";
 import makeup from "./img/makeup.png";
 import design from "./img/photoshop.png";
 import basketball from "./img/basketball.png";
+
 function Hobbies() {
   return (
     <div className="hobbies-list">

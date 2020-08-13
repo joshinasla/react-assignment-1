@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./header.css";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Header() {
   return (
     <div>
